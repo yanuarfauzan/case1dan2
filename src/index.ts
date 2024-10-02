@@ -15,7 +15,7 @@ app.get('/case1/soal2', (req, res) => {
     res.json(getFruitsByType());
 })
 
-app.get('/case3/soal3', (req, res) => {
+app.get('/case1/soal3', (req, res) => {
     res.json(getTotalStockByType());
 })
 
